@@ -1,0 +1,39 @@
+<!-- Archivo HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module3Week4</title>
+    <!-- Archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bienvenido a mi prueba de Modulo 3 - Semana 4</h1>
+    <p></p>
+    <p>Ingresa al inspector o dale a F12 para ver la cantidad de interacciones.</p>
+    <p>Dentro de consola esta todo lo que se ejecuta dentro de 'main.js'.</p><br><br>
+
+    <h3 id="title">Interacción Avanzada con el DOM y Persistencia de Datos</h3>
+    <form id="userForm">
+        <!-- Nombre del usuario -->
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Escribe tu nombre aqui" required><br>
+        <!-- Edad del usuario -->
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" placeholder="Escribe tu edad aqui" required><br>
+        <!-- Botones -->
+        <button type="button" id="saveButton">Guardar Datos</button><br>
+        <button type="button" id="clearButton">Limpiar Datos</button><br>
+    </form>
+    <div id="output">
+        <!-- Aqui se mostraran los datos de Local Storage -->
+    </div>
+    <div id="interactionCountOutput">
+        <!-- Aqui se mostraran la cantidad de interacciones -->
+    </div>
+    
+    <!-- Archivo JS -->
+    <script src="main.js" defer></script>
+</body>
+</html>
